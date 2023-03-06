@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import torch
+
 cap = cv2.VideoCapture('/Users/vishal/Documents/POSE/ONE/pexelscom_pavel_danilyuk_basketball_hd.mp4')
 cap.set(cv2.CAP_PROP_POS_MSEC, 100)
 ret, frame1 = cap.read()
